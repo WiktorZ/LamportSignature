@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>LamportSignature</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LamportSignature.Abstraction\LamportSignature.Abstraction.csproj" />
+      <ProjectReference Include="..\LamportSignature.Shared\LamportSignature.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
